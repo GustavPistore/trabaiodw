@@ -229,3 +229,60 @@ body {
     font-weight: 900;
     font-family: "Poppins", sans-serif;
 }
+.logoo:hover{
+    cursor: pointer;
+}
+.camisetas{
+    display: flex;
+    width: 100%;
+    height: 130vh;
+    justify-content: center;
+}
+.camisetas2{
+    display: flex;
+    height: 100%;
+    width: 89%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cm1{
+    display: flex;
+    height: 47.5%;
+    width: 100%;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    height: 100%;
+    width: 22.5%;
+    flex-direction: column;
+}
+.pt1{
+    width: 100%;
+    height: 88%;
+    background-color: rgb(236, 236, 236);
+}
+.pt2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 12%;
+    justify-content: space-around;
+}
+.cam1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/cam1.png);
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+}
+.cam1:hover{
+    width: 110%;
+    height: 110%;
+    
+}
