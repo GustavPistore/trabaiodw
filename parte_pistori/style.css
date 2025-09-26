@@ -424,3 +424,44 @@ div.promo11{
 div.foto{
     
 }
+div.promo11{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.raio{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+}
+.promocao{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.off{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 105px;
+    font-weight: 1000;
+}
+.desconto{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
